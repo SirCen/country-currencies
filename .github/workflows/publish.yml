@@ -41,10 +41,3 @@ jobs:
                 pnpm publish --access public
               env:
                 NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-
-            # Tag release
-            - name: Create and push git tag
-              run: |
-                VERSION=$(jq -r .version package.json)
-                git tag -a "v$VERSION" -m "Release version $VERSION"
-                git push origin "v$VERSION"
