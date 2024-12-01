@@ -1,5 +1,11 @@
 # country-currencies
 
+## 1.1.1
+
+### Patch Changes
+
+- 9f7784e: update package.json keywords
+
 ## 1.1.0
 
 ### Minor Changes
