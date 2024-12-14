@@ -1,5 +1,11 @@
 # country-currencies
 
+## 1.1.2
+
+### Patch Changes
+
+- b51b70d: Improved documentation
+
 ## 1.1.1
 
 ### Patch Changes
