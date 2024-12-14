@@ -5,16 +5,11 @@
     "main": "dist/index.js",
     "module": "dist/index.mjs",
     "types": "dist/index.d.ts",
-    "keywords": [
-        "country",
-        "currency",
-        "isocode",
-        "currencies",
-        "countries",
-        "ISO3166",
-        "ISO4217",
-        "ISO3166-1"
-    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SirCen/country-currencies.git"
+    },
+    "keywords": ["country", "currency", "isocode", "currencies", "countries", "ISO3166", "ISO4217", "ISO3166-1"],
     "scripts": {
         "build": "tsup index.ts --format cjs,esm --dts",
         "lint": "tsc"
